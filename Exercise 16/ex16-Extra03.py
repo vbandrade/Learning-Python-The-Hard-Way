@@ -26,8 +26,3 @@ target.write("%s\n%s\n%s\n" % (line1, line2, line3) )
 
 print "And finally, we close it."
 target.close()
-
-target = open(filename)
-
-print "Just created %r and its contents are:" % filename
-print target.read()
